@@ -24,7 +24,13 @@ unsigned downloads. To proceed: click **More info**, then **Run anyway**.
 Only download WordSquirrel from this repository. To verify a download, every
 release lists the SHA-256 checksum of its installer; compare it with:
 
-    certutil -hashfile WordSquirrel-<version>.exe SHA256
+    certutil -hashfile wordsquirrel-<version>-win-x64-nsis.exe SHA256
+
+## Checksums
+
+| Version | Date | File | SHA-256 |
+|---|---|---|---|
+| 0.3.0 | 2026-09-05 | `wordsquirrel-0.3.0-win-x64-nsis.exe` | `F8658DDC68C672DB488DFE9FB94F49632A52B167299A3306B56C4F3C22FC892F` |
 
 ## Updating
 
